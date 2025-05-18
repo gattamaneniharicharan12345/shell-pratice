@@ -1,8 +1,8 @@
 
 #!/bin/bash
 
-person1= cbn
-person2= jagu
+person1=cbn
+person2=jagu
 
 echo "$person1:: hey $person2, how are you?"
 echo "$person2:: i am fine too,please dont arrest my wife in liquor scam"
