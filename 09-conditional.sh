@@ -15,7 +15,7 @@ echo "Number of variables: $#"
 echo "Script Name: $0"
 echo "Current Directory: $PWD"
 echo "User running script: $USER"
-echo "Home directory of user: $Home"
+echo "Home directory of user: $HOME"
 echo "PID Of the script: $$"
-sleep 10
+sleep 10 &
 echo "PID of last command in background: $!"
