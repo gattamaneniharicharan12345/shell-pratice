@@ -17,6 +17,7 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
     echo "Error:: please run this scripit with root access"
+    exit 1
 else
     echo "Your running with root access:"
 fi    
