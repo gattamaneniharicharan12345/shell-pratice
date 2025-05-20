@@ -20,3 +20,5 @@ then
 else
     echo "Your running with root access:"
 fi    
+
+dnf install mysql -y
