@@ -24,6 +24,9 @@ fi
 
 dnf list installed mysql
 
+# check already installed or not. if Installed $? is 0, then 
+# If not installed $? is not 0. expression is true
+
 if [ $? -ne 0 ]
 then
     echo "MySQL is not installed... going to install it"
