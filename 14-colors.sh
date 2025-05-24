@@ -41,7 +41,7 @@ else
     echo "nginx is installed... nothing to do"
 fi
 
-dng list installed python3
+dnf list installed python3
 
 if [ $? -ne 0 ]
 then
