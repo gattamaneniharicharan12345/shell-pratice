@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[32m hello aishu, how are you"
+echo -e "\e[31m hello aishu, how are you \e[0m"
 
 echo "im fine"
 
