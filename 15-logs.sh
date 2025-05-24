@@ -10,7 +10,7 @@ Logs_Floder="/var/logs/shellscript-logs"
 Scripit_name=$(echo $0 | cut -d "." -f1)
 Log_file="$Logs_floder/$Scripit_name.log"
 
-mkdir -p $LOGS_FOLDER
+mkdir -p $Logs_Floder
 
 echo "Scripit Stared Executing at:$(date)" | tee -a Log_file
 
