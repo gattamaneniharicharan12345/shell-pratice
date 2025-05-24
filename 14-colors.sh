@@ -43,7 +43,7 @@ fi
 
 dng list installed python3
 
-if [ &? -ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "Python3 is not installed... going to install it"
     dnf install python3 -y
